@@ -15,25 +15,35 @@ _This is a web application that takes a number from a user and returns a range o
 * Example Input: "a" or "!"
 * Example Output: "Please enter a number (must be greater than 0)"
 
-#### 2. Do nothing to 0.
+#### 2. Do nothing to numbers less than 1.
 
 * Example Input: 0
 * Example Output: "Please enter a number (must be greater than 0)"
 
-#### 3. Numbers divisible by 3 are replaced with "ping".
+#### 3. The program takes a number from a user and returns a range of numbers from 1 to the chosen number.
+
+* Example Input: 2
+* Example Output: [1,2]
+
+#### 4. Numbers divisible by 3 are replaced with "ping".
 
 * Example Input: 3
 * Example Output: "ping"
 
-#### 4. Numbers divisible by 5 are replaced with "pong".
+#### 5. Numbers divisible by 5 are replaced with "pong".
 
 * Example Input: 5
 * Example Output: "pong"
 
-#### 5. Numbers divisible by 15 are replaced with "ping-pong".
+#### 6. Numbers divisible by 15 are replaced with "ping-pong".
 
 * Example Input: 15
 * Example Output: "ping-pong"
+
+#### 7. All other numbers that are not divisible by 3, 5, or 15 are retained.
+
+* Example Input: 1
+* Example Output: 1
 
 ## Setup/Installation Requirements
 
