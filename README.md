@@ -20,17 +20,17 @@ _This is a web application that takes a number from a user and returns a range o
 * Example Input: 0
 * Example Output: "Please enter a number (must be greater than 0)"
 
-#### 3.
+#### 3. Numbers divisible by 3 are replaced with "ping".
 
 * Example Input: 3
 * Example Output: "ping"
 
-#### 4.
+#### 4. Numbers divisible by 5 are replaced with "pong".
 
 * Example Input: 5
 * Example Output: "pong"
 
-#### 5.
+#### 5. Numbers divisible by 15 are replaced with "ping-pong".
 
 * Example Input: 15
 * Example Output: "ping-pong"
