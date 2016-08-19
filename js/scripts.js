@@ -1,7 +1,6 @@
 $(document).ready(function() {
 // BUSINESS LOGIC
 var testPingPong = function(num) {
-  // var variableName would be defined here
 
   // DO NOTHING TO NON-NUMERIC INPUT AND NUMBERS LESS THAN 1.
   if (num < 1 ) {
@@ -25,7 +24,6 @@ var testPingPong = function(num) {
       return num;
     }
   }
-
 }
   // USER INTERFACE LOGIC
   $("#user-input").submit(function(event) {
@@ -35,6 +33,5 @@ var testPingPong = function(num) {
     $("#result").text("");
     var theResult = testPingPong(number);
     $("#result").text(theResult);
-
-  })
+  });
 });
