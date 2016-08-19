@@ -12,7 +12,6 @@ var testPingPong = function(num) {
       // NUMBERS DIVISIBLE BY 15 ARE REPLACED WITH "ping-pong".
       if (count % 15 === 0) {
         rangeArray.push("ping-pong");
-        console.log("ping-pong");
       }
       // NUMBERS DIVISIBLE BY 5 ARE REPLACED WITH "pong".
       else if (count % 5 === 0) {
@@ -22,16 +21,13 @@ var testPingPong = function(num) {
       // NUMBERS DIVISIBLE BY 3 ARE REPLACED WITH "ping"
       else if (count % 3 === 0) {
         rangeArray.push("ping");
-        console.log("ping");
       }
       // ALL OTHER NUMBERS THAT ARE NOT DIVISIBLE BY 3, 5, or 15 ARE RETAINED
       else {
         rangeArray.push(count);
-        console.log(count);
       }
     }
     var result = rangeArray.join(", ");
-    console.log(rangeArray);
     return result;
   }
 }
