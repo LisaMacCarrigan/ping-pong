@@ -3,29 +3,27 @@ $(document).ready(function() {
 var testPingPong = function(num) {
   // var variableName would be defined here
 
-  // Do nothing to non-numeric input (i.e. letters and special characters) Form-control
-  // Do nothing to 0
+  // DO NOTHING TO NON-NUMERIC INPUT AND NUMBERS LESS THAN 1.
   if (num < 1 ) {
     alert("Please enter a number (must be greater than 0)");
   }
   else {
+    // NUMBERS DIVISIBLE BY 15 ARE REPLACED WITH "ping-pong".
+    if (num % 15 === 0) {
+      return "ping-pong";
+    }
     // NUMBERS DIVISIBLE BY 5 ARE REPLACED WITH "pong".
-    if (num % 5 === 0) {
+    else if (num % 5 === 0) {
       return "pong";
     }
     // NUMBERS DIVISIBLE BY 3 ARE REPLACED WITH "ping"
     else if (num % 3 === 0) {
       return "ping";
     }
+    // ALL OTHER NUMBERS THAT ARE NOT DIVISIBLE BY 3, 5, or 15 ARE RETURNED
     else {
       return num;
     }
-
-    // NUMBERS DIVISIBLE BY 15 ARE REPLACED WITH "ping-pong".
-
-    // ALL OTHER NUMBERS THAT ARE NOT DIVISIBLE BY 3, 5, or 15 ARE RETURNED
-    // console.log(num);
-    // return num;
   }
 
 }
