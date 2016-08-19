@@ -1,7 +1,6 @@
 $(document).ready(function() {
 // BUSINESS LOGIC
 var testPingPong = function(num) {
-
   // DO NOTHING TO NON-NUMERIC INPUT AND NUMBERS LESS THAN 1.
   if (num < 1 ) {
     alert("Please enter a number (must be greater than 0)");
@@ -28,10 +27,9 @@ var testPingPong = function(num) {
   // USER INTERFACE LOGIC
   $("#user-input").submit(function(event) {
     event.preventDefault();
-    // take user input and convert to integer
-    var number = parseInt($("#input-number").val());
-    $("#result").text("");
-    var theResult = testPingPong(number);
-    $("#result").text(theResult);
+    var number = parseInt($("#input-number").val()); // takes user input and converts to integer
+    $("#result").text(""); // clears result area on screen and displays 'theResult' every time a user clicks submit
+    var theResult = testPingPong(number); // variable that grabs what the function returns
+    $("#result").text(theResult); // displays theResult
   });
 });
