@@ -9,14 +9,18 @@ var testPingPong = function(num) {
     alert("Please enter a number (must be greater than 0)");
   }
   else {
+    // NUMBERS DIVISIBLE BY 5 ARE REPLACED WITH "pong".
+    if (num % 5 === 0) {
+      return "pong";
+    }
     // NUMBERS DIVISIBLE BY 3 ARE REPLACED WITH "ping"
-    if (num % 3 === 0) {
+    else if (num % 3 === 0) {
       return "ping";
     }
     else {
       return num;
     }
-    // NUMBERS DIVISIBLE BY 5 ARE REPLACED WITH "pong".
+
     // NUMBERS DIVISIBLE BY 15 ARE REPLACED WITH "ping-pong".
 
     // ALL OTHER NUMBERS THAT ARE NOT DIVISIBLE BY 3, 5, or 15 ARE RETURNED
