@@ -4,7 +4,7 @@ var testPingPong = function(num) {
   var rangeArray = [];
 
   // DO NOTHING TO NON-NUMERIC INPUT AND NUMBERS LESS THAN 1.
-  if (num < 1) {
+  if (num < 1 || isNaN(num)) {
     alert("Please enter a number (must be greater than 0)");
   }
   else {
