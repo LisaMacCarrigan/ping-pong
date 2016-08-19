@@ -1,0 +1,35 @@
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.container.header {
+  float: left;
+}
+
+.container.header h1 {
+  color: white;
+  font-family: helvetica;
+  margin: 25px 0px 25px 0px;
+
+}
+
+#user-input {
+  text-align: center;
+}
+
+.col-lg-3 {
+  padding-bottom: 25px;
+  margin: 15px;
+  background-color: #298D8D;
+  border-radius: 25px;
+}
+
+#enter {
+  color: white;
+}
+/*background-image: url("../img/paddle-vertical.jpg");
+background-size: auto 100%;
+background-position: left top;
+background-repeat: no-repeat;*/
+  /*width: 100%;*/

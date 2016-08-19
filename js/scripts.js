@@ -16,7 +16,6 @@ var testPingPong = function(num) {
       // NUMBERS DIVISIBLE BY 5 ARE REPLACED WITH "pong".
       else if (count % 5 === 0) {
         rangeArray.push("pong");
-        console.log("pong");
       }
       // NUMBERS DIVISIBLE BY 3 ARE REPLACED WITH "ping"
       else if (count % 3 === 0) {
