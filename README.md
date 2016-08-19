@@ -22,23 +22,18 @@ _This is a web application that takes a number from a user and returns a range o
 
 #### 3.
 
-* Example Input:
-* Example Output:
+* Example Input: 3
+* Example Output: "ping"
 
 #### 4.
 
-* Example Input:
-* Example Output:
+* Example Input: 5
+* Example Output: "pong"
 
 #### 5.
 
-* Example Input:
-* Example Output:
-
-#### 6.
-
-* Example Input:
-* Example Output:
+* Example Input: 15
+* Example Output: "ping-pong"
 
 ## Setup/Installation Requirements
 
