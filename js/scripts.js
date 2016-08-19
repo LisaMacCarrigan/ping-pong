@@ -1,5 +1,4 @@
-$(document).ready(function() {
-// BUSINESS LOGIC
+// BUSINESS / BACK-END LOGIC
 var testPingPong = function(num) {
   // DO NOTHING TO NON-NUMERIC INPUT AND NUMBERS LESS THAN 1.
   if (num < 1 ) {
@@ -24,7 +23,8 @@ var testPingPong = function(num) {
     }
   }
 }
-  // USER INTERFACE LOGIC
+  // USER INTERFACE / FRONT-END LOGIC
+$(document).ready(function() {
   $("#user-input").submit(function(event) {
     event.preventDefault();
     var number = parseInt($("#input-number").val()); // takes user input and converts to integer
