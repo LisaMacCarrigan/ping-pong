@@ -11,7 +11,7 @@ var testPingPong = function(num) {
     for (var count = 1; count <= lastNum; count++) {
       // NUMBERS DIVISIBLE BY 15 ARE REPLACED WITH "ping-pong".
       if (count % 15 === 0) {
-        rangeArray.push("ping-pong");
+        rangeArray.push("PING-PONG");
       }
       // NUMBERS DIVISIBLE BY 5 ARE REPLACED WITH "pong".
       else if (count % 5 === 0) {
