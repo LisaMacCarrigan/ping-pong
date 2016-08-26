@@ -23,27 +23,29 @@ _This is a web application that takes a number from a user and returns a range o
 #### 3. The program takes a number from a user and returns a range of numbers from 1 to the chosen number.
 
 * Example Input: 2
-* Example Output: [1,2]
+* Example Output: 1, 2
 
 #### 4. Numbers divisible by 3 are replaced with "ping".
 
 * Example Input: 3
-* Example Output: "ping"
+* Example Output: 1, 2, ping
 
 #### 5. Numbers divisible by 5 are replaced with "pong".
 
 * Example Input: 5
-* Example Output: "pong"
+* Example Output: 1, 2, ping, 4, pong
 
 #### 6. Numbers divisible by 15 are replaced with "ping-pong".
 
 * Example Input: 15
-* Example Output: "ping-pong"
+* Example Output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, PING-PONG
 
-#### 7. All other numbers that are not divisible by 3, 5, or 15 are retained.
+#### 7. Numbers other than 3, 5, and 15 are output, unless they are also divisible by 3, 5, or 15 - in those instances they would be replaced with the appropriate string.
 
-* Example Input: 1
-* Example Output: 1
+* Example Input #1: 9
+* Example Output #1: 1, 2, ping, 4, pong, ping, 7, 8, ping
+* Example Input #2: 16
+* Example Output #2: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, PING-PONG, 16
 
 ## Setup/Installation Requirements
 
