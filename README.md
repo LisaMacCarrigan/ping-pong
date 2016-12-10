@@ -1,12 +1,14 @@
-# _Ping Pong_
+# **js-ping-pong**
 
-#### _An application that takes a number from a user and returns a range of numbers, 08.19.2016_
-
-#### By _**Lisa MacCarrigan**_
+##### An application that takes a number from a user and returns a range of numbers. 08.19.2016
+#
+##### By [Lisa MacCarrigan](https://github.com/lisamaccarrigan)
+#
+![screenshot of project main page](img/web-app.png)
 
 ## Description
 
-_This is a web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with a few exceptions._
+This is a web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with a few exceptions.
 
 ## Specifications
 
